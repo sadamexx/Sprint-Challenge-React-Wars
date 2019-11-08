@@ -9,14 +9,14 @@ const StarWarsCard = props => {
     console.log(props);
   return (
     <Col xs="12" s="6" md="4">
-      <Card>
+      <Card className="card-main">
         <CardImg
           top width="100%"
           src= "https://images.unsplash.com/photo-1558793588-a82336c8a9b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
           alt="May The Force Be with You"
         />
-        <CardBody>
-          <CardTitle>Name: {props.name}</CardTitle>
+        <CardBody className ="card-container">
+          <CardTitle className ="name">Name: {props.name}</CardTitle>
           <CardSubtitle>Birth year: {props.birth_year}</CardSubtitle>
           <CardSubtitle>Gender: {props.gender}</CardSubtitle>
           <CardSubtitle>Eye Color:{props.eye_color}</CardSubtitle>
