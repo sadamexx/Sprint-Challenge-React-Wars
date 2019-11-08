@@ -3,7 +3,7 @@ import {
     Card, CardImg, CardBody,
     CardTitle, CardSubtitle, 
   } from 'reactstrap';
-import { Col } from 'reactstrap';  
+import { Col } from "reactstrap";  
 
 const StarWarsCard = props => {
     console.log(props);

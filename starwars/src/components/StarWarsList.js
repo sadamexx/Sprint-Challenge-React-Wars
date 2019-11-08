@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Container, Row } from "reactstrap";
 import StarWarsCard from "./StarWarsCard";
+import { Container, Row } from "reactstrap";
+
 
 
 export default function StarWarsList() {
@@ -19,7 +20,7 @@ export default function StarWarsList() {
     });
   }, []);//ends useEffect
 
-  return(
+  return (
     <Container>
       <Row>
         {people.map((people, index) => (
@@ -32,12 +33,8 @@ export default function StarWarsList() {
              hair_color={people.hair_color}
              height={people.height}
              mass={people.mass}/>
-        )
-                    
-            
-        )
-        }
-      </Row>
+        ))}
+        </Row>
     </Container>
   );//ends return
 }//ends function
