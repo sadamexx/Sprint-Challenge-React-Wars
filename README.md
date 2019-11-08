@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    React JS is a user interface library created by Facebook. It is used in various forms to create complex and rich user interfaces. The reason it was created was so that developers could create large web applications which can change data, without having to reload the page all the time. It is meant to be fast, scalable and simple. The reason it is called react is as the user changes the data, it “reacts” to those changes quickly.
+
 - [ ] What does it mean to _think_ in react?
+
+    Thinking in React means thinking about how you approach building your app. It means you will think about what patterns you can see and then put those into components. It's a good way to try to streamline the way you build so that it is a faster, more concise way of approaching your coding.
 
 - [ ] Describe state.
 
+    State is basically a way we store data to be used within our component. React is able to update the DOM when the state changes and tell the DOM what data to render which takes a lot of pressure off of the actual browsers.
+
 - [ ] Describe props.
 
+    A prop is a way for us to pass information from one component to another component. I like to think of props as an adapter. Let’s say you have a 3 prong plug, but you are staying somewhere that only has 2 prongs. You need an adapter to be able to use that plug in the wall. Props is the adapter. It helps you transfer a set of information  to where you can use it in another situation or component. Just because you use the props, doesn’t mean you can change the information you are using. We can’t change the adapter to now transfer data and electricity to the wall plug, it only transfers what it was given, you can’t change it.
+
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    Side effects is anything that affects something outside of the function being executed. For example, fetching data from an API, console logging, or timers are all things that happen outside of the function. A side effect is something that can cause a component to return a different output for the same state and props. The effect hook or useEffect is a way that we can manage side effects. It tells React that a component needs to run a side effect. 
 
 ## Project Set Up
 
