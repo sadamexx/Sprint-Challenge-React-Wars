@@ -1,7 +1,9 @@
 import React from 'react';
 import StarWarsList from "./components/StarWarsList"
+import Carousel from "./components/Carousel"
 
 import './App.css';
+import PhotoCarousel from './components/Carousel';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -14,9 +16,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-        
+        <PhotoCarousel />
           <StarWarsList />
-        
+          
     </div>
     
   );
