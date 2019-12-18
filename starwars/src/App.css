@@ -4,5 +4,27 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 10rem;
 }
 /* write your parent styles in here for your App.js */
+
+
+.card-main{
+  margin-top: 20px;  
+}
+
+.card-container {
+  background-color: rgb(179, 202, 209);
+  color: black;
+  text-align: left;
+ }
+
+ .card-container .name{
+   color: red;
+   text-align: center;
+   font-size: 25px;
+ }
+
+ .carouselText {
+  color: orange;
+}
